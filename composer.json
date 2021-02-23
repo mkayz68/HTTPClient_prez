@@ -30,8 +30,10 @@
         "symfony/string": "*",
         "symfony/translation": "*",
         "symfony/twig-pack": "*",
+        "symfony/ux-chartjs": "^1.2",
         "symfony/validator": "*",
         "symfony/web-link": "*",
+        "symfony/webpack-encore-bundle": "^1.11",
         "symfony/yaml": "*"
     },
     "require-dev": {

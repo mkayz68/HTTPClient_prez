@@ -44,5 +44,19 @@ class CallApiService
         return $this->getApi('AllLiveData');
     }
 
+    // infos par department
+
+    public function getDepartmentData($department): array
+    {
+        return $this->getApi('LiveDataByDepartement?Departement=' . $department);
+    }
+
+    // infos par DATE
+
+    public function getAllDataByDate($date): array
+    {
+        return $this->getApi('AllDataByDate?date=' . $date);
+    }
+
 
 }

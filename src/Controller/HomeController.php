@@ -14,7 +14,7 @@ class HomeController extends AbstractController
 
 
     /**
-     * @Route("/home", name="home")
+     * @Route("/", name="home")
      * @param CallApiService $callApiService
      * @return Response
      */
